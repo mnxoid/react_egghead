@@ -10,12 +10,6 @@ class App extends React.Component {
   		[Lesson5, null]
   	];
 
-  	function decorate(obj, k, v) {
-  		var newobj = obj;
-  		newobj[k]=v;
-  		return newobj;
-  	}
-
     return (
     	<div>
     		<h1>Hi, these are the lessons(excluding first):</h1>

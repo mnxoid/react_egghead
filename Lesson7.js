@@ -22,7 +22,7 @@ class Lesson7 extends React.Component {
     return(
     	<div>
     		<h1>This is Lesson 7</h1>
-			<p>It uses a separate component for the following(all of these change parent's state):</p>
+			<p style={{color: "rgb("+this.state.red+","+this.state.green+","+this.state.blue+")"}}>It uses a separate component for the following(all of these change parent's state):</p>
     		<Slider ref="red"   update={this.update} />{this.state.red}<br />
     		<Slider ref="green" update={this.update} />{this.state.green}<br />
     		<Slider ref="blue"  update={this.update} />{this.state.blue}

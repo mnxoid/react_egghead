@@ -3,13 +3,15 @@ import Lesson2 from "./Lesson2";
 import Lesson4 from "./Lesson4";
 import Lesson5 from "./Lesson5";
 import Lesson6 from "./Lesson6";
+import Lesson7 from "./Lesson7";
 class App extends React.Component {
   render(){
   	const components = [
   		[Lesson2, null], 
   		[Lesson4, {txt: "Text parameter", cat: 4}],
   		[Lesson5, null],
-  		[Lesson6, null]
+  		[Lesson6, null],
+  		[Lesson7, null]
   	];
 
     return (

@@ -5,6 +5,7 @@ import Lesson5 from "./Lesson5";
 import Lesson6 from "./Lesson6";
 import Lesson7 from "./Lesson7";
 import Lesson8 from "./Lesson8";
+import Lesson9 from "./Lesson9";
 class App extends React.Component {
   render(){
   	const components = [
@@ -13,18 +14,19 @@ class App extends React.Component {
   		[Lesson5, null],
   		[Lesson6, null],
   		[Lesson7, null],
-  		[Lesson8, null]
+  		[Lesson8, null],
+  		[Lesson9, null]
   	];
 
     return (
-    	<div>
-    		<h1 className="text-xs-center">Hi, these are the lessons(excluding first):</h1>
-    		<div className="px-2">
+    	<div className="container">
+    		<h1 className="text-center jumbotron">Hi, these are the lessons(excluding first):</h1>
+    		<div className="px-2 container">
     		{
     			components.map((x,i)=>{return (
 	    			<div key={i}>
-	    				<hr/>
 	    				{React.createElement(x[0], x[1])}
+	    				<hr/>
 	    			</div>
 	    		);})
     		}

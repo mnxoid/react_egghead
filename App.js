@@ -6,6 +6,7 @@ import Lesson6 from "./Lesson6";
 import Lesson7 from "./Lesson7";
 import Lesson8 from "./Lesson8";
 import Lesson9 from "./Lesson9";
+import Lesson10 from "./Lesson10";
 class App extends React.Component {
   render(){
   	const components = [
@@ -15,7 +16,8 @@ class App extends React.Component {
   		[Lesson6, null],
   		[Lesson7, null],
   		[Lesson8, null],
-  		[Lesson9, null]
+  		[Lesson9, null],
+  		[Lesson10, null]
   	];
 
     return (

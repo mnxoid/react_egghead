@@ -27,7 +27,7 @@ class App extends React.Component {
     		{
     			components.map((x,i)=>{return (
 	    			<div key={i}>
-	    				{React.createElement(x[0], x[1])}
+	    				{React.createElement(...x)}
 	    				<hr/>
 	    			</div>
 	    		);})

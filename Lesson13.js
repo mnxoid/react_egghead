@@ -28,6 +28,7 @@ class Lesson13 extends React.Component {
 				label="Red"
 				type="range"
 				update={this.update} />
+			<br/>
 		</div>
 	);
   }

@@ -19,7 +19,7 @@ class Lesson14 extends React.Component {
 	render(){
 		let rows = this.state.data.map(x=><PersonRow key={x.id} data={x} />);
 		return(
-			<div>
+			<div className="col-xs-12">
 				<h1>This is Lesson 14</h1>
 				<p>It's about map and arrays</p>
 				<div className="col-xs-4">

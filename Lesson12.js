@@ -10,7 +10,7 @@ let Mixin = InnerComponent => class extends React.Component {
 		this.setState({val: this.state.val + 1});
 	}
 	componentWillMount(){
-		console.log("Wil mount");
+		console.log("Will mount");
 	}
 	componentDidMount(){
 		console.log("Mounted");

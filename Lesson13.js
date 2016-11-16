@@ -16,7 +16,7 @@ class Lesson13 extends React.Component {
   }
   render(){
 	return(
-		<div>
+		<div className="col-xs-12">
 			<h1>This is Lesson 13</h1>
 			<p>It's about composable APIs</p>
 			<NumInput 

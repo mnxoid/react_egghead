@@ -11,6 +11,7 @@ import Lesson11 from "./Lesson11";
 import Lesson12 from "./Lesson12";
 import Lesson13 from "./Lesson13";
 import Lesson14 from "./Lesson14";
+import Lesson15 from "./Lesson15";
 class App extends React.Component {
   render(){
   	const components = [
@@ -25,7 +26,8 @@ class App extends React.Component {
       [Lesson11, null],
       [Lesson12, null],
       [Lesson13, null],
-  		[Lesson14, null]
+      [Lesson14, null],
+  		[Lesson15, null]
   	];
 
     return (
@@ -36,7 +38,7 @@ class App extends React.Component {
     			components.map((x,i)=>{return (
 	    			<div key={i}>
 	    				{React.createElement(...x)}
-	    				<hr/>
+	    				<hr className="col-xs-12"/>
 	    			</div>
 	    		);})
     		}

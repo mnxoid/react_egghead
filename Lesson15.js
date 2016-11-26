@@ -59,8 +59,9 @@ class Lesson15 extends React.Component {
 						<textarea
 							className="col-xs-6"
 							onChange={this.update}
-							defaultValue={this.state.input}></textarea>
-						<pre className="col-xs-6">{this.state.output}</pre>
+							defaultValue={this.state.input}
+							height="500"></textarea>
+						<pre className="col-xs-6" style={{height: 500}}>{this.state.output}</pre>
 					</div>
 				</div>
 			</div>
